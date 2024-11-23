@@ -23,7 +23,7 @@ function two_pointers(arr, target):
             right ← right - 1
     return null
 
-
+```
 
 ## Practice Problems
 - [Two Sum II - Input Array Is Sorted (LeetCode)](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)  
