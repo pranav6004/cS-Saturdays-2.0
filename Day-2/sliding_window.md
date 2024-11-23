@@ -22,7 +22,7 @@ function sliding_window(arr, k):
         window_sum ← window_sum + arr[i] - arr[i - k]
         max_sum ← max(max_sum, window_sum)
     return max_sum
-
+```
 
 ## Practice Problems
 - [Maximum Sum Subarray of Size K (GeeksforGeeks)](https://practice.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1)  

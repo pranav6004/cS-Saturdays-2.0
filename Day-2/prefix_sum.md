@@ -1,10 +1,7 @@
-
-```markdown
-
-### **3. Prefix Sum**
+### 3. Prefix Sum
 The **Prefix Sum** algorithm precomputes cumulative sums of elements in an array, enabling efficient range sum queries. It is a powerful tool for problems involving cumulative data or range calculations.
 
-#### **Significance**:
+#### Significance:
 - Simplifies range query problems by reducing time complexity.
 - Enables quick solutions for problems involving cumulative sums or differences.
 - Forms the basis for more advanced algorithms like difference arrays or Fenwick trees.
@@ -21,7 +18,7 @@ function prefix_sum(arr, queries):
     for (l, r) in queries do:
         results.append(prefix[r + 1] - prefix[l])
     return results
-
+```
 
 ## Practice Problems
 - [Range Sum Query - Immutable (LeetCode)](https://leetcode.com/problems/range-sum-query-immutable/)  
